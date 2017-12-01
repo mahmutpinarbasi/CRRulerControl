@@ -204,7 +204,7 @@ static const CGSize  kPointerImageViewSize = {2, 30};
 }
 
 - (void)setRulerWidth:(CGFloat)rulerWidth {
-    if ((_rulerWidth != rulerWidth) && (rulerWidth <= 7000) && (rulerWidth > 0)) {
+    if ((_rulerWidth != rulerWidth) && (rulerWidth > 0)) {
         _rulerWidth = rulerWidth;
         [self setNeedsLayout];
     }
